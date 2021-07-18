@@ -59,8 +59,6 @@ export default function App() {
         label="Email Address"
         name="email"
         autoComplete="email"
-
-      // autoFocus
       />
         <TextField
           variant="outlined"
@@ -132,24 +130,14 @@ export default function App() {
   }
   const handleDisplay = (d) => {
     let display = false;
-    if (d === "email") {
+    if (d === "email")
       display = state.email
-
-    }
-    else if (d === "phone") {
+    else if (d === "phone")
       display = state.phone
-    }
-    else {
+    else
       display = state.email && state.phone
-    }
 
-    if (display) {
-      return "block"
-    }
-    else {
-      return "none"
-    }
-
+    return display ? "block" : "none"
   }
   return (
     <Container component="main" maxWidth="xs">
@@ -191,19 +179,12 @@ export default function App() {
                 draggable={item.draggable}
                 id={item.id}
                 style={{ display: handleDisplay(item.id) }}
-                onDragOver={(e) =>
-                  e.preventDefault()
-
-                }
+                onDragOver={(e) => e.preventDefault()}
                 onDragStart={handleDrag}
-
                 onDrop={handleDrop}
-
                 key={item.id}
               >{item.element}</div>
-
             ))}
-
 
           {state.email || state.phone ? (<Button
             type="submit"
