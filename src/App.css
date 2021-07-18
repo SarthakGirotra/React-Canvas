@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.div{
+  padding:0px 25px;
+  padding-bottom: 7px;
+  border:2px gray;
+  border-style: dashed;
+}
+.div:hover{
+  cursor: grab;
+}
+.div:active{
+  cursor:grabbing;
+}
+.or{
+  margin:5px 0px;
+}
