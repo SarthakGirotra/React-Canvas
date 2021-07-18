@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Canvas/static/css/main.f59c5aea.chunk.css",
+    "main.js": "/React-Canvas/static/js/main.ed4253d6.chunk.js",
+    "main.js.map": "/React-Canvas/static/js/main.ed4253d6.chunk.js.map",
+    "runtime-main.js": "/React-Canvas/static/js/runtime-main.36de3722.js",
+    "runtime-main.js.map": "/React-Canvas/static/js/runtime-main.36de3722.js.map",
+    "static/js/2.906f7462.chunk.js": "/React-Canvas/static/js/2.906f7462.chunk.js",
+    "static/js/2.906f7462.chunk.js.map": "/React-Canvas/static/js/2.906f7462.chunk.js.map",
+    "index.html": "/React-Canvas/index.html",
+    "static/css/main.f59c5aea.chunk.css.map": "/React-Canvas/static/css/main.f59c5aea.chunk.css.map",
+    "static/js/2.906f7462.chunk.js.LICENSE.txt": "/React-Canvas/static/js/2.906f7462.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36de3722.js",
+    "static/js/2.906f7462.chunk.js",
+    "static/css/main.f59c5aea.chunk.css",
+    "static/js/main.ed4253d6.chunk.js"
+  ]
+}
